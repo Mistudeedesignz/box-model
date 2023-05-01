@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    color: rgb(5, 5, 5);
+} 
+
+/* .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    margin-left: 2.5rem;
+} */
+
+.navbar-brand {
+    font-weight : bold;
+}
+
+.navbar-nav .nav-item {
+    margin: 1rem;
+}
+
+.carousel-item {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1750px;
+}
+}
+
+@media (min-width: 1200px) {
+    #NewArrival .container, #NewArrival .container-lg, #NewArrival .container-md, #NewArrival .container-sm, #NewArrival .container-xl {
+        max-width: 1000px;
+    }
+    }
+    
+.carousel-caption {
+    bottom: 5rem;
+}
+
+.carousel-caption h2{
+    font-size: 3.5rem;
+}
+
+.btn-style {
+    padding: 1rem 2rem;
+}
+
+
+/* Product Section */
+
+#products {
+    margin-top: 2rem ;
+ }
+
+ .row {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .cardStyle {
+    border: none;
+    margin-top: 3rem;
+ }
+
+
+ /* about section */
+
+ .about {
+    background-image: url(https://turntable.kagiso.io/images/women_shopping_for_clothes_budget_fashion_tips.width-800.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}  
+
+.about-caption {
+    text-align: center;
+    margin-top: 13rem;
+}
+
+/* Double column style */
+.singleCol {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 200px;
+    margin-left: 3rem; 
+}
+
+.caption p {
+    font-size: 2.5rem;
+}
+
+footer {
+     background-color: #1d2547;
+}
+
+.columnContent ul {
+     list-style: none;
+     padding: 0;
+}
+
+.columnContent ul li {
+    padding-bottom: 1.2rem;
+}
